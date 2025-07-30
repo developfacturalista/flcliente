@@ -1727,8 +1727,8 @@ public class InterfazSRFL {
 				} else if ((rs.getString("rfc").length() > 0 && rs.getString(
 						"rfc").length() < 12)
 						|| rs.getString("rfc").equalsIgnoreCase("0")
-							|| rs.getString("rfc").length() == 0
-							 && rs.getString("curp").length() == 0) {
+						|| rs.getString("rfc").length() == 0
+						&& rs.getString("curp").length() == 0) {
 					persona = null;
 				} else {
 
@@ -2182,6 +2182,36 @@ public class InterfazSRFL {
 						imprimir = false;
 						guardarXml(serie, numero, tipodocumento, nombrearchivo,
 								nombrezip);
+					}
+				}
+
+				areaServicioSrDTO area = obtenerAreaSrFolio(id, prefijo);
+
+				if (area.getDescripcionArea().equals("RAPIDO") && propiedades.getProperty("imprimerapido") != null) {
+					if (propiedades.getProperty("imprimerapido")
+							.equalsIgnoreCase("1")) {
+						// imprimir=true;
+					} else {
+						imprimir = false;
+						System.out.println("NO IMPRIME EN RAPIDO");
+					}
+				}
+				else if (area.getDescripcionArea().equals("COMEDOR") && propiedades.getProperty("imprimecomedor") != null) {
+					if (propiedades.getProperty("imprimecomedor")
+							.equalsIgnoreCase("1")) {
+						// imprimir=true;
+					} else {
+						imprimir = false;
+						System.out.println("NO IMPRIME EN COMEDOR");
+					}
+				}
+				else if (area.getDescripcionArea().equals("DOMICILIO") && propiedades.getProperty("imprimedomicilio") != null) {
+					if (propiedades.getProperty("imprimedomicilio")
+							.equalsIgnoreCase("1")) {
+						// imprimir=true;
+					} else {
+						imprimir = false;
+						System.out.println("NO IMPRIME EN DOMICILIO");
 					}
 				}
 
@@ -3064,6 +3094,40 @@ public class InterfazSRFL {
 
 		receptor.actualizarDireccion(name);
 		// JOptionPane.showMessageDialog(null, "Hello " + name);
+	}
+
+	public areaServicioSrDTO obtenerAreaSrFolio(int id, String prefijo)
+			throws Exception {
+		DBDriver bd = DBDriver.getInstance();
+		bd.conectar();
+		String consulta = "select idarearestaurant " + "from " + prefijo
+				+ "cheques c " + "where c.folio=?";
+		PreparedStatement ps = bd.prepareStatement(consulta);
+		ps.setInt(1, id);
+		areaServicioSrDTO area = new areaServicioSrDTO();
+
+		ResultSet rs = ps.executeQuery();
+		if (rs.next()) {
+			area.setIdArea(rs.getInt(1));
+			String consulta2 = "select descripcion from areasrestaurant "
+					+ "where idarearestaurant=?";
+			PreparedStatement ps2 = bd.prepareStatement(consulta2);
+			ps2.setInt(1, Integer.parseInt("0"+rs.getInt(1)));
+			ResultSet rs2 = ps2.executeQuery();
+			while (rs2.next()) {
+				area.setDescripcionArea(rs2.getString(1));
+			}
+			rs2.close();
+			ps2.close();
+			rs.close();
+			ps.close();
+		} else {
+			System.out.println("[ERROR] No existe la factura " + id);
+		}
+
+		bd.desconectar();
+
+		return area;
 	}
 
 	public InfoReferencia existeFactura(String nrocompra) throws Exception {

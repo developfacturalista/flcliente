@@ -75,3 +75,7 @@ urlflapi=https://flapi.facturalista.com.uy:9443/FLAPI/flapi/services/softrestaur
 tiempoejecucionenvios=1
 
 cantidadimpresiones=2
+
+
+#si es 1 imprime, si es 0 no imprime
+imprimedomicilio=0
