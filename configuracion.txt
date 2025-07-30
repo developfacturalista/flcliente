@@ -1,0 +1,77 @@
+servidorbd = jdbc:postgresql://localhost/miturno
+userbd = postgres
+clavebd = Marcelito1
+log = c:/FLClienteSR/log/log.txt
+imprimibles = c:/FLClienteSR/imprimibles/
+urlsumatra=C:\\Program Files (x86)\\SumatraPDF\\sumatrapdf
+template = txt
+
+usuariosr=sa
+clavesr = National09
+servidorsr = jdbc:jtds:sqlserver://localhost:59398/softrestaurant10
+
+adenda1 = una adenda
+adenda2 = otra adenda
+adenda3 = tercer adenda
+
+textorecargo = Recargo
+textoredescuento = 
+textoredescuento100 = INVITACION
+textoredescuentolinea100 = INVITACION
+textosubtotal1 = Subtotal
+textosubtotal2 = Impuestos
+textoformapago = Forma de Pago:
+textocambio = cambio:
+textotelefono = telefono:
+descripcionpropina = DESCRIPCION PROPINA
+nombrepropina = PROPINA
+descripcioncargo = Descripcion Cargo
+nombrecargo = Cargo
+
+# propina defecto, se espero un 0 coma algo. si es un 10% seria 0.1 si es un 50% es un 0.5 
+propinasugerida = 0.05
+
+
+# va lo que este en la tabla formasdeppago, el campo idformapago, separado por ;
+# Utilizado para agergar en las adendas los totales en moneda extranjera
+idformaspago = DLL
+
+idformapago = DLL
+tipomoneda = UYU
+
+impresora = PDFCreator
+endpoint = http://localhost:9090/FacturaListaClient/facturaelectronica
+
+ocultardetalle = 0
+lineaProductoConIva=1
+
+ivaexportacion = 0
+
+unidadindexada = 5.0
+
+adendahora=1
+
+idProductoAlmuerzo = 
+idProductoCena = 
+
+ usaGuardadoPdf=0
+ 
+ usaCodigoDeBarra=0
+ 
+ usaproductosplu=0
+ 
+ #van los id de grupo que van con iva en suspenso separados por coma
+
+ idgruposuspenso = 
+ 
+ isa=0
+ rutaxmlisa=C:\\FLClienteSR\\xml\\
+ rutazipisa=C:\\FLClienteSR\\xml\\
+
+facturaproductoshijos=0
+
+enviaErroneosFlapi=1
+urlflapi=https://flapi.facturalista.com.uy:9443/FLAPI/flapi/services/softrestaurant/nuevaAlertaSoftrestaurant
+tiempoejecucionenvios=1
+
+cantidadimpresiones=2

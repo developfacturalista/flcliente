@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><ns0:EnvioCFE xmlns:ns0="http://cfe.dgi.gub.uy" xmlns:ns2="http://www.w3.org/2001/04/xmlenc#" xmlns:ns3="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://cfe.dgi.gub.uy EnvioCFE_v1.11.xsd">
+    <ns0:Caratula version="1.0">
+        <ns0:RutReceptor>219999830019</ns0:RutReceptor>
+        <ns0:RUCEmisor>210299090019</ns0:RUCEmisor>
+        <ns0:Idemisor>6257</ns0:Idemisor>
+        <ns0:CantCFE>1</ns0:CantCFE>
+        <ns0:Fecha>2024-05-24T15:50:51.294-03:00</ns0:Fecha>
+    <ns0:X509Certificate>MIIGfTCCBGWgAwIBAgIUBexX9sti6nMnpCSzNL4vv81mlfIwDQYJKoZIhvcNAQELBQAwXjELMAkG&#13;
+A1UEBhMCVVkxEzARBgNVBAcTCk1vbnRldmlkZW8xFDASBgNVBAoTC0FiaXRhYiBTLkEuMRMwEQYD&#13;
+VQQLEwpJRCBkaWdpdGFsMQ8wDQYDVQQDEwZBYml0YWIwHhcNMjIwNzAxMTc1NTAwWhcNMjQwNjMw&#13;
+MTc1NTAwWjBwMQswCQYDVQQGEwJVWTETMBEGA1UECBMKTW9udGV2aWRlbzEYMBYGA1UEBRMPUlVD&#13;
+MjEwMjk5MDkwMDE5MRgwFgYDVQQKEw9IT1RFTCBBTFZFQVIgU0ExGDAWBgNVBAMTD0hPVEVMIEFM&#13;
+VkVBUiBTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOUmy0EmqGk+t7JcPPcIbBa1&#13;
+gUe26QYq0rR2Fb5q0MFReFh1MbktTQdPxJqg3EcKl7ykyP3bSiI9i1UsL1UbC+D4mqzrryGs9DLk&#13;
+4uSvt2n4PnwLb8JhC5BLD7bNjlsg+NLDOGjhIaOpGVyB11mYtxOyRK3g+Zl+G4XJS0TH3lyH3Q2R&#13;
+2+GCgYRAdC4EVV2UBOHqw3McWFSyzyZOJD8UNN0LRuhSbL2p1YkOumm8sTUclmXg06KxZkY0MP1i&#13;
+9mE2kOstdXN4oHBWfYjFbTxUZdow5QFvHDtzDQoDfuQ6KEFI8ZffMLedTlVzcMVHObQbmEg/g41Q&#13;
+omEmkmCUZItS4icCAwEAAaOCAh8wggIbMIGABggrBgEFBQcBAQR0MHIwNQYIKwYBBQUHMAKGKWh0&#13;
+dHA6Ly93d3cuaWQuY29tLnV5L3Jlc291cmNlcy9BYml0YWIuY3J0MDkGCCsGAQUFBzABhi1odHRw&#13;
+Oi8vb2NzcC5pZC5jb20udXkvYXNmL3NlcnZsZXQvT0NTUFNlcnZsZXQwDgYDVR0PAQH/BAQDAgTw&#13;
+MAwGA1UdEwEB/wQCMAAwTgYDVR0fBEcwRTBDoEGgP4Y9aHR0cDovL2NybC5pZC5jb20udXkvcmVz&#13;
+b3VyY2VzL2NybF9pZF9kaWdpdGFsX3BraV91cnVndWF5LmNybDCB0gYDVR0gBIHKMIHHMGQGC2CG&#13;
+WoTirh2EiAUEMFUwUwYIKwYBBQUHAgEWR2h0dHA6Ly91Y2UuZ3ViLnV5L2luZm9ybWFjaW9uLXRl&#13;
+Y25pY2EvcG9saXRpY2FzL2NwX3BlcnNvbmFfanVyaWRpY2EucGRmMF8GC2CGWoTirh2EiAUHMFAw&#13;
+TgYIKwYBBQUHAgEWQmh0dHA6Ly93d3cuaWQuY29tLnV5L3Jlc291cmNlcy9jcHNfaWRfZmlybWFF&#13;
+bGVjdHJvbmljYUF2YW56YWRhLnBkZjATBgNVHSUEDDAKBggrBgEFBQcDAjAdBgNVHQ4EFgQU1E1T&#13;
+9C4zw2RTJgOLDzjGoIqAm5AwHwYDVR0jBBgwFoAUDRPW9sYopufFt4fRJJyfk/DoHTswDQYJKoZI&#13;
+hvcNAQELBQADggIBADnxT2NGf4DPZECgEPoKbRULj11QAdD9bdRwpmY03XYPOs/oOTocpZ2RGBP/&#13;
+k8nbxnzuALxYHXnfQaA7FeHo/lUVMv3/G0s9u+g88B4TuLcxgTlxJ9ouhHCQ6hwwlcP5S7zEf9Ez&#13;
+Wjtd0TZn+RqtRFZz+QHcsAZyFJOqYnMxsqUiYiOTcHcVoQiBHDbQX/zyo9VbL7hd6TL6woKS1BMl&#13;
+vj3TZtrlw9UmVjDlsEDfZYkXtQdftaJtnQ8sPAFwxef9gyTvKZzDbrCwkwAdh3b1yL+bkbXJW4GE&#13;
+uVNWWU0GNQiHd+tqYzR9kxWRlbIosat0cY6NQkZhbxfdQCZRqWiYPfgOMIIyFrGHcxIQWSmtk8cs&#13;
+hsFAfjNfcbt+cRhP4+nb4cU2GXXtwDEmrevYsQwH0bclnhRZ6NQDfcakFCVQJsAgBDnAgR0Bocff&#13;
+XB8yaxcSqrOpYA5icZO44AeggSgo2VBB7kYpZ5F1McrT073POd+gbGGg49siN7StQ8IJOSOVaS+k&#13;
+UvrQARoBlsb6V5+F7ICyJQcX8kEP4S717g7pg8Y7Fn0J7s6J3aBTd88jfHJ9jrabdNCEdNNU7mDw&#13;
+7KlyJLqdyv9bnZWfZtx5+XEtG+Rsv8CQVZRmR/XSDLgKOC2wQiuxXU4MizTeSIHuyIrqsyZYyyHf&#13;
+0kvkbatFPZMJJgzb</ns0:X509Certificate></ns0:Caratula>
+    <ns0:CFE version="1.0" xmlns:ns0="http://cfe.dgi.gub.uy">
+        <ns0:eTck>
+            <ns0:TmstFirma>2024-05-24T15:50:51.294-03:00</ns0:TmstFirma>
+            <ns0:Encabezado>
+                <ns0:IdDoc>
+                    <ns0:TipoCFE>101</ns0:TipoCFE>
+                    <ns0:Serie>A</ns0:Serie>
+                    <ns0:Nro>1374</ns0:Nro>
+                    <ns0:FchEmis>2024-05-24</ns0:FchEmis>
+                    <ns0:PeriodoDesde>2015-02-01</ns0:PeriodoDesde>
+                    <ns0:PeriodoHasta>2024-12-31</ns0:PeriodoHasta>
+                    <ns0:MntBruto>1</ns0:MntBruto>
+                    <ns0:FmaPago>1</ns0:FmaPago>
+                    <ns0:FchVenc>2024-05-24</ns0:FchVenc>
+                </ns0:IdDoc>
+                <ns0:Emisor>
+                    <ns0:RUCEmisor>210299090019</ns0:RUCEmisor>
+                    <ns0:RznSoc>ALVEAR HOTEL SA</ns0:RznSoc>
+                    <ns0:NomComercial>ALVEAR HOTEL SA</ns0:NomComercial>
+                    <ns0:GiroEmis>Gastronomia</ns0:GiroEmis>
+                    <ns0:Telefono>TELEFONO</ns0:Telefono>
+                    <ns0:CorreoEmisor>alvearhotelsa@factura-lista.com</ns0:CorreoEmisor>
+                    <ns0:EmiSucursal>Casa Central</ns0:EmiSucursal>
+                    <ns0:CdgDGISucur>1</ns0:CdgDGISucur>
+                    <ns0:DomFiscal>DIRECCION</ns0:DomFiscal>
+                    <ns0:Ciudad>Montevideo</ns0:Ciudad>
+                    <ns0:Departamento>Montevideo</ns0:Departamento>
+                </ns0:Emisor>
+                <ns0:Receptor/>
+                <ns0:Totales>
+                    <ns0:TpoMoneda>UYU</ns0:TpoMoneda>
+                    <ns0:MntNoGrv>0.00</ns0:MntNoGrv>
+                    <ns0:MntExpoyAsim>0.00</ns0:MntExpoyAsim>
+                    <ns0:MntImpuestoPerc>0.00</ns0:MntImpuestoPerc>
+                    <ns0:MntIVaenSusp>0.00</ns0:MntIVaenSusp>
+                    <ns0:MntNetoIvaTasaMin>0.00</ns0:MntNetoIvaTasaMin>
+                    <ns0:MntNetoIVATasaBasica>616.39</ns0:MntNetoIVATasaBasica>
+                    <ns0:MntNetoIVAOtra>0.00</ns0:MntNetoIVAOtra>
+                    <ns0:IVATasaMin>10.000</ns0:IVATasaMin>
+                    <ns0:IVATasaBasica>22.000</ns0:IVATasaBasica>
+                    <ns0:MntIVATasaMin>0.00</ns0:MntIVATasaMin>
+                    <ns0:MntIVATasaBasica>135.61</ns0:MntIVATasaBasica>
+                    <ns0:MntIVAOtra>0.00</ns0:MntIVAOtra>
+                    <ns0:MntTotal>752.00</ns0:MntTotal>
+                    <ns0:MntTotRetenido>0.00</ns0:MntTotRetenido>
+                    <ns0:MntTotCredFisc>0.00</ns0:MntTotCredFisc>
+                    <ns0:CantLinDet>1</ns0:CantLinDet>
+                    <ns0:MontoNF>0.00</ns0:MontoNF>
+                    <ns0:MntPagar>752.00</ns0:MntPagar>
+                </ns0:Totales>
+            </ns0:Encabezado>
+            <ns0:Detalle>
+                <ns0:Item>
+                    <ns0:NroLinDet>1</ns0:NroLinDet>
+                    <ns0:CodItem>
+                        <ns0:TpoCod>SR</ns0:TpoCod>
+                        <ns0:Cod>0201</ns0:Cod>
+                    </ns0:CodItem>
+                    <ns0:IndFact>3</ns0:IndFact>
+                    <ns0:NomItem>CAFE COMUN</ns0:NomItem>
+                    <ns0:DscItem>CAFE COMUN</ns0:DscItem>
+                    <ns0:Cantidad>1.000</ns0:Cantidad>
+                    <ns0:UniMed>GALO</ns0:UniMed>
+                    <ns0:PrecioUnitario>752.000000</ns0:PrecioUnitario>
+                    <ns0:DescuentoPct>0.00</ns0:DescuentoPct>
+                    <ns0:DescuentoMonto>0.00</ns0:DescuentoMonto>
+                    <ns0:RecargoPct>0</ns0:RecargoPct>
+                    <ns0:RecargoMnt>0.00</ns0:RecargoMnt>
+                    <ns0:MontoItem>752.00</ns0:MontoItem>
+                </ns0:Item>
+            </ns0:Detalle>
+            <ns0:SubTotInfo>
+                <ns0:STI_Item>
+                    <ns0:NroSTI>1</ns0:NroSTI>
+                    <ns0:GlosaSTI>Subtotal</ns0:GlosaSTI>
+                    <ns0:OrdenSTI>1</ns0:OrdenSTI>
+                    <ns0:ValSubtotSTI>616.39</ns0:ValSubtotSTI>
+                </ns0:STI_Item>
+                <ns0:STI_Item>
+                    <ns0:NroSTI>2</ns0:NroSTI>
+                    <ns0:GlosaSTI>Impuestos</ns0:GlosaSTI>
+                    <ns0:OrdenSTI>2</ns0:OrdenSTI>
+                    <ns0:ValSubtotSTI>135.61</ns0:ValSubtotSTI>
+                </ns0:STI_Item>
+            </ns0:SubTotInfo>
+            <ns0:CAEData>
+                <ns0:CAE_ID>90180001010</ns0:CAE_ID>
+                <ns0:DNro>1</ns0:DNro>
+                <ns0:HNro>2000</ns0:HNro>
+                <ns0:FecVenc>2024-12-31</ns0:FecVenc>
+            </ns0:CAEData>
+        </ns0:eTck>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>3wrdNLcFHBk38tXGyCS83Fx5+X0=</DigestValue></Reference></SignedInfo><SignatureValue>4hlC7954NjMCN1Q3+QGwfSQCOa+pcE8C5YROxvnzFX1EiGIDB85HA0HjEmmMs49Y7ae3UBeWVdaB&#13;
+UjfHOBflM7SrR55Y4nQ8Y8r/tOUqrY3QGAL9LHQDIJ6TGvZHdq/pk/+Zl6lz82M/vuBv84bHOQsv&#13;
+dY1066nfiFXwYrI4QYxOI3fxzSGvr2tl5QjigUS+CHC1MPp0AmH6LDT78Epy4GIrw0qYBEETc4qH&#13;
+N/yFfC7yjYBPsMDceAWzQqwmd/Yb8mCttgk5ZlM9oRJZHpJVjiCjq4DKYEIj6mynkja8lzqajVEf&#13;
+N6572/lIUJwa782gxxXHbyy1AuUiu8ZCO8GFzg==</SignatureValue><KeyInfo><X509Data><X509IssuerSerial><X509IssuerName>CN=Abitab, OU=ID digital, O=Abitab S.A., L=Montevideo, C=UY</X509IssuerName><X509SerialNumber>33815592469657633818717048637502270393714906610</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature></ns0:CFE>
+</ns0:EnvioCFE>
