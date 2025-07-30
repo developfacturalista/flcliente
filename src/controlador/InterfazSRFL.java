@@ -1433,7 +1433,7 @@ public class InterfazSRFL {
 			ad.add("Nombre de equipo: " + buscoNombrePc());
 			ad.add("Mesero: " + mesero);
 			ad.add("Mesa: " + mesa);
-			ad.add("Cantidad personas: " + nropersonas);
+			ad.add("Cantidad personas : " + nropersonas);
 			ad.add(nrocompra);
 
 			if (properties.getProperty("adendahora").equalsIgnoreCase("1")) {
